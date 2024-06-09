@@ -1,0 +1,334 @@
+{
+  "questions": [
+    {
+      "question": "Which is the most popular JavaScript framework?",
+      "options": ["Angular", "React", "Svelte", "Vue"],
+      "correctOption": 1,
+      "points": 10,
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which company invented React?",
+      "options": ["Google", "Apple", "Netflix", "Facebook"],
+      "correctOption": 3,
+      "points": 10,
+      "difficulty": "easy"
+    },
+    {
+      "question": "What's the fundamental building block of React apps?",
+      "options": ["Components", "Blocks", "Elements", "Effects"],
+      "correctOption": 0,
+      "points": 10,
+      "difficulty": "easy"
+    },
+    {
+      "question": "What's the name of the syntax we use to describe the UI in React components?",
+      "options": ["FBJ", "Babel", "JSX", "ES2015"],
+      "correctOption": 2,
+      "points": 10,
+      "difficulty": "easy"
+    },
+    {
+      "question": "How does data flow naturally in React apps?",
+      "options": [
+        "From parents to children",
+        "From children to parents",
+        "Both ways",
+        "The developers decides"
+      ],
+      "correctOption": 0,
+      "points": 10,
+      "difficulty": "easy"
+    },
+    {
+      "question": "How to pass data into a child component?",
+      "options": ["State", "Props", "PropTypes", "Parameters"],
+      "correctOption": 1,
+      "points": 10,
+      "difficulty": "easy"
+    },
+    {
+      "question": "When to use derived state?",
+      "options": [
+        "Whenever the state should not trigger a re-render",
+        "Whenever the state can be synchronized with an effect",
+        "Whenever the state should be accessible to all components",
+        "Whenever the state can be computed from another state variable"
+      ],
+      "correctOption": 3,
+      "points": 20,
+      "difficulty": "medium"
+    },
+    {
+      "question": "What triggers a UI re-render in React?",
+      "options": [
+        "Running an effect",
+        "Passing props",
+        "Updating state",
+        "Adding event listeners to DOM elements"
+      ],
+      "correctOption": 2,
+      "points": 20,
+      "difficulty": "medium"
+    },
+    {
+      "question": "When do we directly \"touch\" the DOM in React?",
+      "options": [
+        "When we need to listen to an event",
+        "When we need to change the UI",
+        "When we need to add styles",
+        "Almost never"
+      ],
+      "correctOption": 3,
+      "points": 20,
+      "difficulty": "medium"
+    },
+    {
+      "question": "In what situation do we use a callback to update state?",
+      "options": [
+        "When updating the state will be slow",
+        "When the updated state is very data-intensive",
+        "When the state update should happen faster",
+        "When the new state depends on the previous state"
+      ],
+      "correctOption": 3,
+      "points": 30,
+      "difficulty": "hard"
+    },
+    {
+      "question": "If we pass a function to useState, when will that function be called?",
+      "options": [
+        "On each re-render",
+        "Each time we update the state",
+        "Only on the initial render",
+        "The first time we update the state"
+      ],
+      "correctOption": 2,
+      "points": 30,
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which hook to use for an API request on the component's initial render?",
+      "options": ["useState", "useEffect", "useRef", "useReducer"],
+      "correctOption": 1,
+      "points": 20,
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which variables should go into the useEffect dependency array?",
+      "options": [
+        "Usually none",
+        "All our state variables",
+        "All state and props referenced in the effect",
+        "All variables needed for clean up"
+      ],
+      "correctOption": 2,
+      "points": 20,
+      "difficulty": "medium"
+    },
+    {
+      "question": "An effect will always run on the initial render.",
+      "options": [
+        "True",
+        "It depends on the dependency array",
+        "False",
+        "In depends on the code in the effect"
+      ],
+      "correctOption": 0,
+      "points": 20,
+      "difficulty": "medium"
+    },
+    {
+      "question": "When will an effect run if it doesn't have a dependency array?",
+      "options": [
+        "Only when the component mounts",
+        "Only when the component unmounts",
+        "The first time the component re-renders",
+        "Each time the component is re-rendered"
+      ],
+      "correctOption": 3,
+      "points": 20,
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which of the following is used in React.js to increase performance?",
+      "options": [
+        "Virtual DOM",
+        "Original DOM",
+        "Both A and B",
+        "None of the above"
+      ],
+      "correctOption": 0,
+      "points": 20,
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is ReactJS?",
+      "options": [
+        "Server-side framework",
+        "user interface framework",
+        "both a and b",
+        "None of the above"
+      ],
+      "correctOption": 1,
+      "points": 10,
+      "difficulty": "easy"
+    },
+    {
+      "question": "Identify the one which is used to pass data to components from outside",
+      "options": [
+        "Render with arguments",
+        "setState",
+        "PropTypes",
+        "props"
+      ],
+      "correctOption": 3,
+      "points": 10,
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is Babel?",
+      "options": [
+        "Javascript Compiler",
+        "Javascript Interpreter",
+        "Javascript Transpiler",
+        "None of the above"
+      ],
+      "correctOption": 1,
+      "points": 20,
+      "difficulty": "medium"
+    },
+    {
+      "question": "Identify the command used to create a react app.",
+      "options": [
+        "npm install create-react-app",
+        "npm install -g create-react-app",
+        "npm -g create-react-app",
+        "None of the above"
+      ],
+      "correctOption": 1,
+      "points": 10,
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which of the following method is used to access the state of a component from inside of a member function?",
+      "options": [
+        "this.prototype.stateValue",
+        "this.getState()",
+        "this.values",
+        "this.state"
+      ],
+      "correctOption": 2,
+      "points": 30,
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the declarative way to render a dynamic list of components based on values in an array?",
+      "options": [
+        "Using the reduce array method",
+        "Using the <Each /> component",
+        "Using the Array.map() method",
+        "With a for/while loop"
+      ],
+      "correctOption": 2,
+      "points": 30,
+      "difficulty": "hard"
+    },
+    {
+      "question": "What are the two ways to handle data in React?",
+      "options": [
+        "State & Props",
+        "Services & Components",
+        "State & Services",
+        "State & Component"
+      ],
+      "correctOption": 0,
+      "points": 10,
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the use of webpack command in React.js?",
+      "options": [
+        "The webpack command is used to transpile all the JavaScript down into one file.",
+        "It runs React local development server.",
+        "It is a module bundler.",
+        "None of the above"
+      ],
+      "correctOption": 2,
+      "points": 30,
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which of the following method refers to the parent class in React.js?",
+      "options": [
+        "inherits()",
+        "self()",
+        "super()",
+        "this()"
+      ],
+      "correctOption": 2,
+      "points": 30,
+      "difficulty": "hard"
+    },
+    {
+      "question": " Which of the following best defines the key prop?",
+      "options": [
+        "Key prop is used to look pretty, and there is no benefit whatsoever.",
+        "Key prop is a way for React to identify a newly added item in a list and compare it during the diffing algorithm.",
+        "It is one of the attributes in HTML.",
+        "It is NOT commonly used in an array."
+      ],
+      "correctOption": 1,
+      "points": 30,
+      "difficulty": "hard"
+    },
+    {
+      "question": "Choose the correct data flow sequence of flux concept.",
+      "options": [
+        "Action->Dispatcher->Store->View",
+        "Action->Dispatcher->View->Store",
+        "Action->Store->View->Dispatcher",
+        "Dispatcher->Action->Store->View"
+      ],
+      "correctOption": 0,
+      "points": 30,
+      "difficulty": "hard"
+    },
+    {
+      "question": "Why is ref used?",
+      "options": [
+        "to bind the function",
+        "to call a function",
+        "to ditrectly access the DOM node",
+        "to refer to another JS file"
+      ],
+      "correctOption": 2,
+      "points": 30,
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is true for the keys given to a list of elements in React?",
+      "options": [
+        "Unique in the DOM.",
+        "Unique among the siblings only",
+        "Do not require to be unique",
+        "None of the above"
+      ],
+      "correctOption": 1,
+      "points": 20,
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which of the following terms commonly described react applications?",
+      "options": [
+        "Imperative",
+        "Integrated",
+        "Declarative",
+        "Closed"
+      ],
+      "correctOption": 2,
+      "points": 20,
+      "difficulty": "medium"
+    }
+  ]
+}
